@@ -1,0 +1,21 @@
+product_id,name,category,price
+1,Wireless Mouse,Electronics,799
+2,Mechanical Keyboard,Electronics,3499
+3,USB-C Hub,Electronics,1899
+4,Noise Cancelling Headphones,Electronics,8999
+5,27in Monitor,Electronics,15999
+6,Webcam HD,Electronics,2499
+7,Office Chair,Furniture,7499
+8,Standing Desk,Furniture,18999
+9,Bookshelf,Furniture,4599
+10,Desk Lamp,Furniture,1299
+11,Notebook Pack,Stationery,349
+12,Gel Pens (10),Stationery,199
+13,Planner 2025,Stationery,599
+14,Sticky Notes,Stationery,149
+15,Python Crash Course,Books,1499
+16,Deep Learning Book,Books,2999
+17,Clean Code,Books,1799
+18,Designing Data-Intensive Apps,Books,2499
+19,Water Bottle,Lifestyle,699
+20,Backpack,Lifestyle,2299
