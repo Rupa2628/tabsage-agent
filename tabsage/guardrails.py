@@ -95,8 +95,8 @@ class LoopDetector:
 
     @staticmethod
     def _key(action: Action) -> str:
-        args = json.dumps(action.args, sort_keys=True)
-        return f"{action.name}:{re.sub(r'\s+', ' ', args.lower())}"
+        args = re.sub(r"\s+", " ", json.dumps(action.args, sort_keys=True).lower())
+        return f"{action.name}:{args}"
 
     def is_repeat(self, action: Action) -> bool:
         k = self._key(action)
